@@ -10,15 +10,16 @@ import javax.annotation.PostConstruct;
 @SpringBootApplication
 public class CicdWithJenkinsApplication {
 	public static Logger logger = LoggerFactory.getLogger(CicdWithJenkinsApplication.class);
-
-	@PostConstruct
-	public void init(){
-		logger.info("It is in the init method");
-	}
+//
+//	@PostConstruct
+//	public void init(){
+//		logger.info("It is in the init method");
+//	}
 
 	public static void main(String[] args) {
-		new CicdWithJenkinsApplication().init();
+
 		SpringApplication.run(CicdWithJenkinsApplication.class, args);
+
 	}
 
 }

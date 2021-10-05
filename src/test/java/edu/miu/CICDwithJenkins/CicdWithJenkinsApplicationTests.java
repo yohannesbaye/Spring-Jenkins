@@ -8,12 +8,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
-@RunWith(SpringRunner.class)
+//@RunWith(SpringRunner.class)
 class CicdWithJenkinsApplicationTests {
 
 	@Test
 	void contextLoads() {
-		assertEquals(true, true);
+//		assertEquals(true, true);
 	}
 
 }
