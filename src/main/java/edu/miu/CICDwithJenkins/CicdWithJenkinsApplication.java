@@ -1,5 +1,6 @@
 package edu.miu.CICDwithJenkins;
 
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,7 +10,7 @@ import java.util.logging.Logger;
 @SpringBootApplication
 public class CicdWithJenkinsApplication {
 
-	public static  Logger logger = Logger.getLogger(String.valueOf(CicdWithJenkinsApplication.class));
+	public static  Logger logger = (Logger) LoggerFactory.getLogger(CicdWithJenkinsApplication.class);
 
 	@PostConstruct
 	public void init(){
