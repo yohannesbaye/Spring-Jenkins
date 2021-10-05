@@ -13,6 +13,7 @@ class CicdWithJenkinsApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 		assertEquals(true, true);
 	}
 

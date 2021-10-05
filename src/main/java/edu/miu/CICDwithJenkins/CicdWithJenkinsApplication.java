@@ -20,6 +20,7 @@ public class CicdWithJenkinsApplication {
 
 		SpringApplication.run(CicdWithJenkinsApplication.class, args);
 		init();
+		logger.info("It is to check up the erunning jenkins");
 	}
 
 }
