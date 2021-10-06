@@ -9,8 +9,8 @@ import javax.annotation.PostConstruct;
 
 @SpringBootApplication
 public class CicdWithJenkinsApplication {
-	public static Logger logger = LoggerFactory.getLogger(CicdWithJenkinsApplication.class);
-
+//	public static Logger logger = LoggerFactory.getLogger(CicdWithJenkinsApplication.class);
+//
 	@PostConstruct
 	public static void init(){
 		logger.info("It is in the init method ============ \n ==========================================\n=====================");
